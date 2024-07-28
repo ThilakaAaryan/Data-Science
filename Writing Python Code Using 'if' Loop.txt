@@ -1,0 +1,60 @@
+
+WRITING PYTHON CODE USING 'IF' LOOP
+
+1. Write an `if` statement that checks if a variable `x` is greater than 10.
+x=int(input(“Enter the Value:”))
+if X>10:
+       print("yes, x is greater than 10")
+
+2. Write an `if` statement that checks if a variable `y` is less than or equal to 5.
+y=int(input(“Enter the Value:”))
+if y<=5:
+   print("y is less than or equal to 5")
+
+3. Write an `if` statement that checks if a string `name` is equal to "Alice".
+name=input(“Enter the String:”)
+if name=="Alice":
+  print("name is equal to Alice")
+
+4. Write an `if` statement that checks if a number `num` is even.
+num = int(input("Enter a Value:"))
+if (num % 2) == 0:
+   print("num is Even")
+
+5. Write an `if` statement that checks if a variable `z` is positive.
+z=int(input("Enter the Value:"))
+if z>0:
+  print("z is positive")
+
+6. Write an `if` statement that checks if a list `my_list` is not empty.
+my_list = input([])
+if my_list:
+    print("my_list is not empty")
+
+7. Write an `if` statement that checks if a variable `a` is between 1 and 100.
+a=int(input("Enter the Value:"))
+if a in range(1,100):
+  print("a is between 1 and 100")
+
+8. Write an `if` statement that checks if a string `password` contains "@".
+password = input("Enter the password:")
+if "@" in password:
+    print("password contains '@'")
+
+9. Write an `if` statement that checks if a number `b` is a multiple of 5.
+num = int(input("Enter a Value:"))
+if (num % 5) == 0:
+   print("num is mutliple of 5")
+
+10. Write an `if` statement that checks if a string `s` starts with "Hello".
+s=input("Enter the String:")
+if s.startswith("Hello,"):
+  print("s starts with Hello")
+
+11. write an ‘if’ statement a is greater than b, AND if c is greater than a.
+a = int(input("Enter the value of a:"))
+b = int(input("Enter the value of b:"))
+c = int(input("Enter the value of c:"))
+if a > b and c > a:
+  print("a is greater than b 'and' c is greater than a, will be true")
+
